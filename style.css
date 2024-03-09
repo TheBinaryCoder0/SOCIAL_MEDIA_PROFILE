@@ -1,0 +1,259 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,body{
+    width: 100%;
+    height: 100%;
+  }
+
+  #main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color:#AED6F1;
+  }
+
+  /* #main #background{
+    width: 100%;
+    height: 100%;
+    /* background-image: url(""); */
+    /* background-size: cover; */
+    /* background-position: center; */ 
+
+    #left{
+      width: 20%;
+      height: 100%;
+    }
+
+    #profile_heading{
+      font-size: 40px;
+      position: absolute;
+      top: 2%;
+      left: 4%;
+      background-color: #12be5d;
+      border: none;
+      border-radius: 3%;
+      cursor: pointer;
+    }
+
+    #text_heading{
+      width: 13%;
+      height: 5%;
+      position: absolute;
+      top: 10%;
+      left: 3%;
+    }
+
+    .button_left{
+      width: 90%;
+      height: 20%;
+      background-color: #12be5d;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5%;
+      border: none;
+      font-size: 25px;
+    }
+
+    #home{
+      position: absolute;
+      top: 20%;  
+      width: 20%;
+      height: 30%;
+      left: 1%;
+    }
+    
+    #search{
+      position: absolute;
+      top: 27%;  
+      width: 20%;
+      height: 30%;
+      left: 1%;
+    }
+
+    #messages{
+      position: absolute;
+      top: 34%;  
+      width: 20%;
+      height: 30%;
+      left: 1%;
+    }
+
+    #notifications{
+      position: absolute;
+      top: 41%;  
+      width: 20%;
+      height: 30%;
+      left: 1%;
+    }
+
+    #create{
+      position: absolute;
+      top: 48%;  
+      width: 20%;
+      height: 30%;
+      left: 1%;
+    }
+
+    #profile{
+      position: absolute;
+      top: 55%;  
+      width: 20%;
+      height: 30%;
+      left: 1%;
+    }
+
+    #right{
+      width: 80%;
+      height: 100%;
+      position: relative;
+      border: 1px solid;
+    }
+
+    #profile_picture{
+      text-align: center;
+      width: 15%;
+      height: 20%;
+      background-color: #12be5d;
+      position: absolute;
+      top: 3%;
+      left: 5%;
+      border-radius: 50%;
+    }
+
+    #nav_right_top{
+      display: flex;
+      /* background-color: blue; */
+      width: 45%;
+      height: 7%;
+      position: absolute;
+      left: 35%;
+      top: 3%;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+      gap: 100px;
+    }
+
+    .button_nav_right_top{
+      width: 100%;
+      height: 30%;
+      background-color: #12be5d;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5%;
+      border: none;
+      font-size: 35px;
+      cursor: pointer;
+      text-align: center;
+    }
+
+    #nav_right_top_numbers{
+      position: absolute;
+      width: 55%;
+      height: 5%;
+      display: flex;
+      gap: 70px;
+      right: 15%;
+      top: 15%;
+      text-align: center;
+      text-wrap: nowrap;
+    }
+
+    #bio_input{
+      width: 50%;
+      height: 10%;
+      position:absolute;
+      top: 24%;
+      left: 30%;
+      display: flex;
+      gap: 20px;
+    }
+
+    #b_bio_edit{
+      top: 50%;
+      width: 20%;
+      height: 40%;
+      background-color: #12be5d;
+      font-size: 20px;
+      margin-top: 25px;
+    }
+
+    #create_circle{
+      width: 8%;
+      height: 12%;
+      position: absolute;
+      top: 35%;
+      left: 10%;
+      text-align: center;
+      font-size: 14px;
+      font-weight: 100;
+    }
+
+    #b_create{
+      text-align: center;
+      background-color: #12be5d;
+      width: 100%;
+      height: 80%;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 80px;
+      font-weight: 100;
+    }
+
+    #media_card{
+      width: 96%;
+      height: 45%;
+      position: absolute;
+      bottom: 2%;
+      left: 2%;
+      right: 2%;
+      padding: 5px 5px;
+    }
+
+    #media_card_top{
+      width: 100%;
+      height: 13%;
+      display: flex;
+    }
+
+    #photos_card{
+      width: 25%;
+      height: 100%;
+    }
+
+    #videos_card{
+      width: 25%;
+      height: 100%;
+    }
+
+    #audios_card{
+      width: 25%;
+      height: 100%;
+    }
+
+    #tagged_card{
+      width: 25%;
+      height: 100%;
+    }
+
+    .media_card_buttons{
+      width: 100%;
+      height: 100%;
+      background-color: #12be5d;
+      cursor: pointer;
+      font-size: 20px;
+    }
+
+    #media_card_bottom{
+      width: 100%;
+      height: 87%;
+      background-color: #AED6F1;
+      border-left: 1px solid;
+      border-right: 1px solid;
+      border-bottom: 1px solid;
+    }
